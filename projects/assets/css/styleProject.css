@@ -1,0 +1,45 @@
+/* Project Home Page */
+.overlay{
+    width: 100%;
+    background: #11429bc4;
+    position: relative;
+    height: 90px;
+    top: -90px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.text-items,.overlay-icon{
+    align-self: center;
+}
+.text-items p,h4{
+    color: white;
+    font-weight: bold;
+}
+.text-items p{
+    font-size: 14px;
+}
+.text-items h4{
+    font-size: 20px;
+}
+
+.overlay-icon img{
+    width: 50px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+.cid-sKtfoXdJZl .carousel-item .wrap-img img {
+    width: auto;
+}
+.google-map{
+    height: 650px;
+}
+
+/* عند الشاشات الصغيرة مثل الهاتف */
+@media (max-width: 767px) {
+    .cid-sKtfoXdJZl .carousel-item .wrap-img img {
+        max-width: 100% !important;
+        width: 100% !important; /* إضافة اختيارية لضمان التمدد الكامل */
+    }
+}
