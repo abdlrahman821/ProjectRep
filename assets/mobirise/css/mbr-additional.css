@@ -1,6 +1,4 @@
-body {
-  font-family: Jost;
-}
+
 .display-1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 3.6rem;
@@ -6328,7 +6326,7 @@ a {
 }
 .cid-sKtfoXdJZl .carousel-item .wrap-img img {
   height: 400px;
-  width: 60%;
+  /* width: 60%; */
   border-radius:10px ;
 }
 .cid-sKtfoXdJZl .carousel {
@@ -6357,6 +6355,7 @@ a {
   opacity: 1;
   background-size: cover;
   border: none;
+  background-position: bottom center;
 }
 .cid-sKtfoXdJZl .carousel-indicators li.active {
   border: 0px;

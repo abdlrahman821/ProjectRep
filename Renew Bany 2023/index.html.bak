@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <title>BanyGroup</title>
    
    <link rel="stylesheet" href="css/whatsappbouncybutton.css"> 					<!-- ← whatsapp Bouncy Button -->
-   <a href="https://api.whatsapp.com/send?phone=201095404095 " class="float bounce" target="_blank"><img style="height: 80px; width: 80px" src="image/whatsapplogo.png">
+   <a href="https://api.whatsapp.com/send?phone=201050096000 " class="float bounce" target="_blank"><img style="height: 80px; width: 80px" src="image/whatsapplogo.png">
    <i class="fa fa-whatsapp my-float"></i>
    </a>
   </head>
