@@ -39,6 +39,8 @@
 
 .mbr-gallery .mbr-gallery-item img {
   width: 100%;
+  height: 300px;
+  background-position: center center;
   opacity: 1;
   -webkit-transition: .2s opacity ease-in-out;
   transition: .2s opacity ease-in-out; }
