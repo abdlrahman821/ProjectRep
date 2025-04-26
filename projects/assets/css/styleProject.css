@@ -16,6 +16,9 @@
     color: white;
     /* font-weight: bold; */
 }
+.cocoe img{
+    height: 220px;
+}
 
 .text-items p{
     font-size: 14px;
