@@ -47,7 +47,8 @@
 .overlay-icon img{
     width: 50px;
     height: 30px;
-    margin-left: 20px;
+       margin-right: 5px;
+           margin-left: 5px;
 }
 
 .cid-sKtfoXdJZl .carousel-item .wrap-img img {
