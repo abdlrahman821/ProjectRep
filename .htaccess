@@ -1,0 +1,25 @@
+# Enable rewriting
+RewriteEngine On
+
+# Redirect all requests for www.banygroup.com to banygroup.com
+RewriteCond %{HTTP_HOST} ^www\.banygroup\.com$
+RewriteRule ^(.*)$ http://banygroup.com/$1 [R=301,L]
+
+# Set the default file for a directory to index.html
+DirectoryIndex index.html
+
+# Prevent hotlinking of images
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://banygroup\.com/.*$
+RewriteRule .* - [F]
+
+
+
+<Directory "/www/banygroup">
+    AllowOverride All
+</Directory>
+
+<Location "/">
+    Options +IncludesNoExec -ExecCGI
+</Location>

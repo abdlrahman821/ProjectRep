@@ -1,0 +1,126 @@
+   .cid-sy896VVaIA img, .cid-sy896VVaIA .item-img{
+    height: 200px;
+   }
+   .overlay-icon img{
+    height: 30px !important;
+   }
+   #myList{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+        width: 75%;
+    }
+    .cid-sDeIeKIG0z .mbr-gallery-filter ul li .btn{
+        width: 100px;
+    }
+    .cid-sDeIeKIG0z ul::-webkit-scrollbar {
+      width: 12px;
+  height: 8px;
+}
+.splide__track--draggable{
+    background-color: #e5e5e5;
+}
+.mbr-gallery-filter{
+    display: flex;
+    justify-content: center;
+}
+.cid-sDeIeKIG0z{
+    padding-bottom: 0px !important;
+}
+.splide__slide img{
+ height: 200px !important;
+}
+.cid-sDeIeKIG0z ul::-webkit-scrollbar-track {
+  background: white ;
+}
+
+.cid-sDeIeKIG0z ul::-webkit-scrollbar-thumb {
+  background: #0073ab;
+  border-radius: 3px;
+  
+}
+.splide__slide {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100% !important;
+    justify-content: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  border-radius: 50%;
+  padding: 10px;
+}
+.carousel-inner{
+    background: #e5e5e500;
+}
+.radiues-calic{
+  background-color: rgba(0, 0, 0, 0.5); /* خلفية رمادية شفافة */
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.carousel-indicators{
+    bottom: -20px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;       /* يجعلها دائرية */
+  background-color: #999;   /* لون الرمادي للمؤشرات */
+  margin: 0 5px;
+  opacity: 0.5;
+  transition: opacity 0.3s, background-color 0.3s;
+  border: none;
+}
+
+.carousel-indicators .active {
+  background-color: #007bff; /* الأزرق للمؤشر النشط */
+  opacity: 1;
+  width: 12px;  /* مهم جدًا لتجنب المطاول */
+  height: 12px; /* مهم جدًا لتجنب المطاول */
+  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .mbr-gallery .carousel-control, .mbr-gallery .carousel-indicators, .mbr-gallery .modal .close {
+        position: absolute;
+        bottom: -20px;
+    }
+}
+
+.splide__list{
+    overflow: hidden !important;
+}
+
+
+    .cid-sDeIeKIG0z ul{
+        width: 100%;
+        /* overflow: hidden !important; */
+    }
+    .woel{
+        width: 100% !important;
+    }
+    .splide__slide{
+        height: 100% !important;
+    }
+    .splide__pagination {
+        bottom: -5px !important;
+    }
+    @media screen and (max-width: 768px) {
+    
+       .mbr-gallery .mbr-gallery-item img{
+        height: 100% !important;
+     }
+     .mbr-gallery .mbr-gallery-item > div:hover .mbr-gallery-title{
+        font-size: 10px !important;
+        top: 20px
+     }
+        
+    }
