@@ -4,6 +4,12 @@
    .overlay-icon img{
     height: 30px !important;
    }
+    .mbr-gallery .mbr-gallery-item{
+         display: flex;
+         flex-wrap: wrap; 
+         gap: 16px; 
+         justify-content: center;
+    }
    #myList{
         display: flex;
         flex-direction: row;
